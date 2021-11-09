@@ -7,17 +7,22 @@
 for (let i = 1; i <=100; i++) {
     // conservo il valore i in una variabile num
     const num = i;
+    const row = document.querySelector('.row');
 
     // condizionale if in caso di multiplo di 3 e 5, assegnando il valore corrispondente
     if ((i % 3 == 0) && (i % 5 == 0)) {
         i = 'FizzBuzz';
+
     } else if (i % 3 == 0) {
         i = 'Fizz';
+
     } else if  (i % 5 == 0){
         i = 'Buzz';
+
     }
 
     // stampo il valore in console e riassegno ad i il valore iniziale
+    row.innerHTML += `<div class=box>${i}</div>`;
     console.log(i);
     i = num;
 }
