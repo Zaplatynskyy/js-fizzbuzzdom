@@ -25,6 +25,20 @@ h1 {
     width: 15vh;
     height: 15vh;
     line-height: 15vh;
+    font-size: 20px;
+    font-weight: bold;
     background-color: #1389b2;
     margin: 10px;
+}
+
+.fizz {
+    background-color: #0bd6a1;
+}
+
+.buzz {
+    background-color: #ffd166;
+}
+
+.fizzbuzz {
+    background-color: #f0466f;
 }
