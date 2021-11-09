@@ -27,6 +27,7 @@ h1 {
     line-height: 15vh;
     font-size: 20px;
     font-weight: bold;
+    list-style: none;
     background-color: #1389b2;
     margin: 10px;
 }
